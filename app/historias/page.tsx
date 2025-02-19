@@ -126,6 +126,29 @@ export default function Historias() {
         </div>
       </div>
 
+      <div className="max-w-sm m-10 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
+        <a href="/historias/reino_ancestral_conto">
+          <img className="rounded-t-lg max-h-64 object-cover w-full" src="/assets/images/reino_ancestral_conto.png" alt="" />
+        </a>
+        <div className="p-5">
+          <a href="/historias/reino_ancestral_conto">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> O Destino da Voz Una </h5>
+          </a>
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400"> O Reino Ancestral de Alterra prosperava sob a liderança da Voz Una, um ser divino que equilibrava as forças da Criação e da Destruição. No entanto, após a corrupção dos sacerdotes e a perda da Voz Una, o reino mergulhou em caos e guerras. Agora, as lendas dizem que um novo escolhido poderá restaurar o equilíbrio e trazer Alterra de volta à sua glória.</p>
+          <a href="/historias/reino_ancestral_conto" className="inline-flex items-center px-3 mr-6 py-2 text-sm font-medium text-center text-white bg-slate-500 rounded-lg hover:bg-slate-400 focus:ring-4 focus:outline-none focus:ring-black dark:bg-slate-600 dark:hover:bg-slate-500 dark:focus:ring-slate-900">
+            Ler Conto
+            <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+          </a>
+          <a href="/historias/reino_ancestral_audio" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-slate-500 rounded-lg hover:bg-slate-400 focus:ring-4 focus:outline-none focus:ring-black dark:bg-slate-600 dark:hover:bg-slate-500 dark:focus:ring-slate-900">
+            Escutar Áudio Resumo
+            <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+          </a>
+        </div>
+      </div>
     </div>
     </>
   );
