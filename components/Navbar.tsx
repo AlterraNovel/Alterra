@@ -2,7 +2,7 @@ export function Navbar() {
   return (
     <div className="fixed bottom-0 left-0 right-0 flex justify-center h-[5vh] bg-neutral-800 z-10">
       {[
-        ['Mapa', '/'],
+        ['Mapa Ancestral', '/'],
         ['Universo', '/universo'],
         ['Histórias e Contos', '/historias'],
         ['Sobre', '/equipe'],
